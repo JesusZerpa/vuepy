@@ -1,18 +1,22 @@
 {
-  "name": "transcrypt_libs",
+  "name": "@jesbram/vuepy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Esta es una envoltura de clase python para Vue para ser utilizada en proyectos que usen transcrypt",
+  "main": "__target__/vuepy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jesús Zerpa",
   "license": "ISC",
   "dependencies": {
     "transcrypt-loader": "^1.0.2",
     "vue": "^2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jesbram/vuepy.git"
   },
   "devDependencies": {
     "webpack": "^5.11.1",
